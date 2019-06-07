@@ -32,6 +32,18 @@ $ sudo timedatectl
 $ date
 ```
 
+## set nano's tabsize
+
+```console
+$ nano ~/.nanorc
+```
+
+```
+set tabsize 4
+set tabstospaces
+```
+
+
 ## check 32/64 bit
 
 ```console
