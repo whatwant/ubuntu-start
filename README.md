@@ -10,7 +10,16 @@ $ sudo adduser
 ## Add sudoer
 
 ```console
-visudo
+$ visudo
+```
+
+## set locale
+
+```console
+$ sudo apt-get install language-pack-ko
+$ sudo locale-gen ko_KR.UTF-8
+$ sudo dpkg-reconfigure locales
+$ sudo update-locale LANG=ko_KR.UTF-8 LC_MESSAGES=POSIX
 ```
 
 ## check 32/64 bit
