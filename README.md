@@ -22,6 +22,16 @@ $ sudo dpkg-reconfigure locales
 $ sudo update-locale LANG=ko_KR.UTF-8 LC_MESSAGES=POSIX
 ```
 
+## set date/time
+
+```console
+$ sudo timedatectl
+$ sudo timedatectl list-timezones | grep Seoul
+$ sudo timedatectl set-timezone Asia/Seoul
+$ sudo timedatectl
+$ date
+```
+
 ## check 32/64 bit
 
 ```console
