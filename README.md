@@ -88,3 +88,9 @@ $ sudo nano /srv/install/nextcloud/config/config.php
   ),
 ```
 
+## Set Time
+
+```console
+$ sudo apt-get install ntpdate
+$ sudo ntpdate time.windows.com
+```
